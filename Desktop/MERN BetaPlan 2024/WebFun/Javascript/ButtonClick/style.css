@@ -1,0 +1,75 @@
+
+
+.header{
+    background-color: rgb(170, 163, 163);
+    height: fit-content;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 670px;
+   
+}
+#logbutton{
+    background-color: blue;
+    color: white;
+    padding: 15px 40px;
+    font-size: large;
+}
+
+#search{
+    padding: 10px 30px;
+    font-size: large;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    gap: 30px;
+}
+.ninja-1{
+    height: fit-content;
+    width: 400px;
+    border: 3px solid black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+}
+
+#ninja-button{
+    background-color: yellow;
+    padding: 15px 30px;
+    font-size: large;
+}
+
+.dojo{
+    width: 200px;
+    height: fit-content;
+    border: 3px solid black;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+   
+}
+#dojo-button{
+    background-color: green;
+    padding: 10px 40px;
+    font-size: large;
+
+}
+
+.second{
+    width:400px;
+    height: fit-content;
+    border: 3px solid black;
+    margin-left: 680px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}

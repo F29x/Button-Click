@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+      <div class="header">
+        <h1>Dictionary</h1>
+        <input type="text" name="search" id="search" placeholder="search">
+        <button id="logbutton" onclick="change(this)">Login</button>
+      </div>
+      <div class="first">
+        <div class ="ninja-1">
+            <h3>ninja</h3>
+            <p>a practicioner of japanese art</p>
+            <button id="ninja-button" onclick="message()">13 likes</button>
+        </div>
+        <div class="dojo">
+            <p>Dojo defines you</p>
+            <button id="dojo-button" onclick="remove(this)">Add Defintion</button>
+        </div>
+      </div>
+      <div class="second">
+        <h3>ninja</h3>
+        <p>programmer who breaks down problems</p>
+        <button id="ninja-button" onclick="message()">37 likes</button>
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
